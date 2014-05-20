@@ -1,5 +1,6 @@
-toy_projects
+Toy Projects
 ============
 
-- **k-means + Voronoi diagram** - [[html]()] [[IPython nbviewer]()] [[raw]()]
+- **Python**
+ - k-means + Voronoi diagram - [[html]()] [[IPython nbviewer]()] [[raw]()]
 
