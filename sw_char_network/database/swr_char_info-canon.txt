@@ -1,0 +1,26 @@
+# Star wars character network
+# Last update: July 25, 2014
+# Information extracted from Wookiepedia: http://starwars.wikia.com
+# "Star Wars", its characters and creations are the property of Lucasfilm. All other trademarks are property of the respective trademark owners. 
+# Legend definition:
+#> NAM: Name.
+#> MAS: Known Masters.
+#> APP: Known apprentices.
+#> BSF: Wether the character has been aligned to the bright side of the force (value 1) or not (value 0).
+#> DSF: Wether the character has been aligned to the dark side of the force (value 1) or not (value 0).
+#> MTS: Wether the training MTS[n] received from the master MAS[n] was in the bright (value 1) or in the dark (value 0) side of the force.
+#> ATS: Wether the training ATS[n] given to the apprentice APP[n] was in the bright (value 1) or in the dark (value 0) side of the force.
+#NAM	MAS	APP	BSF	DSF	MTS	ATS
+Yoda	Qui-Gon_Jinn	Darth_Tyranus;Obi-Wan_Kenobi;Luke_Skywalker	1	0	1	1;1;1
+Qui-Gon_Jinn	Darth_Tyranus	Obi-Wan_Kenobi;Darth_Vader;Yoda	1	0	1	1;1;1
+Darth_Tyranus	Yoda;Darth_Sidious	Qui-Gon_Jinn;Grievous;Asajj_Ventress;Savage_Opress	1	1	1;0	1;0;0;0
+Obi-Wan_Kenobi	Yoda;Qui-Gon_Jinn	Darth_Vader;Luke_Skywalker	1	0	1;1	1;1
+Luke_Skywalker	Obi-Wan_Kenobi;Yoda	.	1	0	1;1	.
+Darth_Vader	Qui-Gon_Jinn;Obi-Wan_Kenobi;Darth_Sidious	Ashoka_Tano	1	1	1;1;0	1
+Darth_Sidious	Darth_Plagueis	Darth_Maul;Darth_Tyranus;Darth_Vader	0	1	0	0;0;0
+Grievous	Darth_Tyranus	.	0	0	0	.
+Asajj_Ventress	Darth_Tyranus	Savage_Opress	0	1	0	0
+Savage_Opress	Darth_Tyranus;Darth_Maul	.	0	1	0;0	.
+Ashoka_Tano	Darth_Vader	.	1	0	1	.
+Darth_Plagueis	.	Darth_Sidious	0	1	.	0
+Darth_Maul	Darth_Sidious	Savage_Opress	0	1	0	0
